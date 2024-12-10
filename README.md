@@ -42,3 +42,49 @@ A lógica do programa é a seguinte:
   para os lados corretos.
 
 ---
+
+## Instruções para executar o código
+
+### Pré-requisitos
+- **Java Development Kit (JDK)** instalado na máquina.
+- Um editor de texto ou IDE (como IntelliJ IDEA, Eclipse ou VS Code) para compilar e executar o código.
+- **Git** instalado para clonar o repositório (opcional).
+
+### Passos para execução
+
+1. **Clone o repositório para sua máquina**:
+    - Abra o terminal e execute o comando:
+      ```bash
+      git clone https://github.com/luiszup/quickSort.git
+      ```
+    - Navegue até o diretório do projeto:
+      ```bash
+      cd quickSort
+      ```
+
+2. **Compile o programa**:
+    - No terminal, compile o arquivo `Main.java` (ou o arquivo principal do programa):
+      ```bash
+      javac Main.java
+      ```
+
+3. **Execute o programa**:
+    - Após a compilação, execute o programa com o comando:
+      ```bash
+      java Main
+      ```
+
+4. **Exemplo de entrada e saída**:
+    - O programa exibirá o array desordenado e, em seguida, o array ordenado. Exemplo:
+      ```bash
+      Array desordenado: 10 7 8 9 1 5
+      Array ordenado: 1 5 7 8 9 10
+      ```
+
+---
+
+## Contribuições
+
+Sinta-se à vontade para contribuir com melhorias no código ou na documentação. Para isso:
+- Abra uma **issue** para relatar problemas ou sugerir melhorias.
+- Envie um **pull request** com suas alterações.
